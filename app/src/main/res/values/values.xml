@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">mediaScanner</string>
+
+    <string name="permission_not_granted">Grant storage permission in Settings.</string>
+
+    <string name="permission_a11_title">App changes for Android 11 and newer devices</string>
+    <string name="permission_a11_text">Starting with Android 11, you do not need to explicitly grant permissions.\n\n
+( "OK" button will be enabled in 3 seconds )</string>
+
+    <string name="scan_running_title">Scan running…</string>
+    <string name="scan_running_text">A scan is running, please wait while it\'s completed.\n</string>
+    <string name="scan_items_left">items left out of </string>
+    <string name="error_adding_dir">Error adding directory!</string>
+
+    <string name="close_when_done">Close when done scanning</string>
+    <string name="start_scan">Start scanning when app starts</string>
+
+    <string name="auto_scan">Auto scan device in background</string>
+    <string name="scan_whole_device">Scan whole device (slow)</string>
+    <string name="pick_file">Add a folder/file</string>
+    <string name="scan">Start mediaScanner</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="nav_up">Up</string>
+
+    <string name="completed_with_errors">Scan completed with some errors!</string>
+    <string name="scan_completed">Scan completed successfully!</string>
+
+    <string name="running_failed_scan">Running scan in background, you can scan more files/directories if you want.</string>
+    <string name="failed_whole_scan">Error scanning whole device!\nPlease try adding different files or folders.</string>
+    <string name="failed_files_title">Failed scanning some file(s)</string>
+    <plurals name="failed_files_text">
+        <item quantity="one">One file has failed.\nDo you want to re-scan that file?</item>
+        <item quantity="other">%d files have failed.\nDo you want to re-scan those files</item>
+    </plurals>
+    <string name="show_failed_files">Show failed files</string>
+    <string name="show_failed_dialog_title">Failed files</string>
+
+    <string name="delete_item_title">Removing item from list</string>
+    <string name="delete_item_text">Are you sure you want to remove "%s" from the list?</string>
+
+    <!-- Dir picker -->
+    <string name="selected_folder_label">Selected folder:</string>
+</resources>
